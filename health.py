@@ -2,7 +2,7 @@
 import numpy as np
 import pickle
 import streamlit as st
-newmodel = pickle.load(open('https://github.com/Suryaranji/Health_insurance/blob/main/healthins.sav', 'rb'))
+newmodel = pickle.load(open('Health_insurance/blob/main/healthins.sav', 'rb'))
 
 
 def pred(inputdata):
